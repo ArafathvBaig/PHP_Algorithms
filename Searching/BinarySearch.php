@@ -35,7 +35,7 @@ $binarySearch = new BinarySearch();
 $searchArray = array(2, 4, 6, 8, 10, 12, 14, 16, 18, 20);
 $lower = 0;
 $higher = count($searchArray) - 1;
-$x = 18;
+$x = 2;
 $result = $binarySearch->search($searchArray, $lower, $higher, $x);
 if ($result == -1) {
     echo "Element is not present in array";
